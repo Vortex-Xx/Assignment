@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
 }
 
 .App-logo {
@@ -26,6 +32,28 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Subsection {
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 200;
+  text-decoration : underline;
+  text-align: left;
+}
+
+.SecondLine{
+  font-size: 1.3rem;
+  margin-top: 10px;
+  font-weight: 800;
+  text-align: left;
+}
+
+.para1{
+  font-size: 1.1rem;
+  margin-top: 20px;
+  font-weight: 400;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
